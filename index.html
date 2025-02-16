@@ -285,21 +285,21 @@
     <div id="cart-total">
         <button id="checkout">Checkout</button>
     </div>
-        <div id="cart-summary">
-        <h3>Cart Summary</h3>
-        <p>Subtotal: $<span id="subtotal"></span></p>
-        <p>Discount: $<span id="discount-amount">0.00</span></p>
-        <p>Total: $<span id="final-total"></span></p>
-        <hr>
-
-        <div>
-            <label for="promo-code">Promo Code:</label>
-            <input type="text" id="promo-code" placeholder="Enter promo code">
-            <button id="apply-promo">Apply Promo</button>
-        </div>
-
-        <p id="promo-message" style="color: green;"></p>
+        <!-- Checkout Section (Add this inside the cart-container or in the Checkout modal) -->
+<div id="cart-summary">
+    <h3>Cart Summary</h3>
+    <p>Subtotal: $<span id="subtotal"></span></p>
+    <p>Discount: $<span id="discount-amount">0.00</span></p>
+    <p>Total: $<span id="final-total"></span></p>
+    <hr>
+    <div>
+        <label for="promo-code">Promo Code:</label>
+        <input type="text" id="promo-code" placeholder="Enter promo code">
+        <button id="apply-promo">Apply Promo</button>
     </div>
+    <p id="promo-message"></p>
+</div>
+
 </div>
 
 </div>
